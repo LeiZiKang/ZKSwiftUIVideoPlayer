@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import ZKSwiftUIVideoPlayer
 
 struct VideoPlayerView: View {
     var body: some View {
         VStack {
-            
+            ZKSwiftUIVideoPlayer(url: "【MV】(搬运)《梨泰院Class》OST合集 朴叙俊 金多美 - 001 - Part.1 Still Fighting It".zk_bundle_mp4()!)
         }
     }
 }
