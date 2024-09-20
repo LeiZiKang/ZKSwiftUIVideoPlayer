@@ -7,6 +7,7 @@
 
 import SwiftUI
 import ZKSwiftUIVideoPlayer
+import AVKit
 
 struct VideoPlayerView: View {
     var body: some View {
