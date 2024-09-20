@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DD2C85B22C9DE385006FE702 /* ZKSwiftUIVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = DD2C85B12C9DE385006FE702 /* ZKSwiftUIVideoPlayer */; };
+		DD2C85B52C9DE3A3006FE702 /* ZKCompoments in Frameworks */ = {isa = PBXBuildFile; productRef = DD2C85B42C9DE3A3006FE702 /* ZKCompoments */; };
+		DD2C85B82C9DE523006FE702 /* ZKCompoments in Frameworks */ = {isa = PBXBuildFile; productRef = DD2C85B72C9DE523006FE702 /* ZKCompoments */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DD2C85942C9DE341006FE702 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2C85B52C9DE3A3006FE702 /* ZKCompoments in Frameworks */,
+				DD2C85B82C9DE523006FE702 /* ZKCompoments in Frameworks */,
+				DD2C85B22C9DE385006FE702 /* ZKSwiftUIVideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +121,9 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
+				DD2C85B12C9DE385006FE702 /* ZKSwiftUIVideoPlayer */,
+				DD2C85B42C9DE3A3006FE702 /* ZKCompoments */,
+				DD2C85B72C9DE523006FE702 /* ZKCompoments */,
 			);
 			productName = Demo;
 			productReference = DD2C85832C9DE33F006FE702 /* Demo.app */;
@@ -195,6 +207,10 @@
 			);
 			mainGroup = DD2C857A2C9DE33F006FE702;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DD2C85B02C9DE385006FE702 /* XCLocalSwiftPackageReference "../../ZKSwiftUIVideoPlayer" */,
+				DD2C85B62C9DE523006FE702 /* XCRemoteSwiftPackageReference "ZKComponents" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DD2C85842C9DE33F006FE702 /* Products */;
 			projectDirPath = "";
@@ -558,6 +574,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DD2C85B02C9DE385006FE702 /* XCLocalSwiftPackageReference "../../ZKSwiftUIVideoPlayer" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../ZKSwiftUIVideoPlayer;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD2C85B62C9DE523006FE702 /* XCRemoteSwiftPackageReference "ZKComponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LeiZiKang/ZKComponents.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD2C85B12C9DE385006FE702 /* ZKSwiftUIVideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZKSwiftUIVideoPlayer;
+		};
+		DD2C85B42C9DE3A3006FE702 /* ZKCompoments */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZKCompoments;
+		};
+		DD2C85B72C9DE523006FE702 /* ZKCompoments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD2C85B62C9DE523006FE702 /* XCRemoteSwiftPackageReference "ZKComponents" */;
+			productName = ZKCompoments;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD2C857B2C9DE33F006FE702 /* Project object */;
 }

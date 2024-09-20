@@ -1,0 +1,15 @@
+{
+  "originHash" : "cae96813d063fe473481f7126c037dc8f3d348e3391792c7c47afd14ca145727",
+  "pins" : [
+    {
+      "identity" : "zkcomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeiZiKang/ZKComponents.git",
+      "state" : {
+        "revision" : "e924bca5372f25bafd2c74005d7e005c9d087031",
+        "version" : "3.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
